@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.restaurant-info-table-caption, 
+.ramen__hiiki{
+    background-color: #806f6f;
+}
+.ramen__hiiki__oo{
+    background: url(飛粋.jpg);
+    width: 1440px;
+    height: 380px;
+}
+.restaurant-info-table{
+    display: block;
+    padding: 20px;
+}
+.restaurant-info-table__tbody{
+    display: block;
+}
+.restaurant-info-table__title{
+    font-size: 24px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    ;
+
+}
+.restaurant-info-table__row{
+    display: flex;
+    border-bottom: 2px solid #806f6f;
+    padding: 25px;
+}
+.restaurant-info-table__body{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    
+}
+.ramen__hiiki h1{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.ramen__hiiki ul{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    color: #fff;
+}
+.restaurant-info-table-caption{
+    color: #fff;
+    text-align: center;
+}
+.bb{
+    border: none;
+}
+.restaurant-info-table__detail-list{
+    display: flex;
+    flex-direction: column;
+}

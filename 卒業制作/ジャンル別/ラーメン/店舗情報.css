@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+body{
+    background-color: #806f6f;
+}
+.ramen__main__text{
+    height: 60px;
+    margin-bottom: 60px;
+    color: #ddd;
+}
+.ramen__main__text h3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 47px;
+}
+.ramen__main{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 17px;
+}
+.hiiki{
+    border-bottom: 2px solid #806f6f;
+    padding-bottom: 30px;
+}
+.ramen__main__item{
+    display: flex;
+}
+.ramen__main__item__img{
+    width: 10%;
+    margin-right: 25px;
+}
+.ramen__main__item__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ここからコピペ*/
+nav{
+text-align: center;
+}
+    
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+    
+nav li{
+list-style: none;
+display: inline-block;
+width: 10%;
+min-width: 90px;
+}
+    
+nav li:not(:last-child){
+border-right:2px solid #ddd;
+}
+    
+nav a{
+text-decoration: none;
+color: #333;
+}
+    
+nav a.current{
+color: #00B0F0;
+border-bottom:2px solid #00B0F0;
+}
+    
+nav a:hover{
+color:#F7CB4D;
+border-bottom:2px solid #F7CB4D;
+}
+.restaurant-info-table-caption{background-color:#f4f4f5;padding:8px 140px}
+.restaurant-info-table{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch;
+padding:0 130px}
+.restaurant-info-table:nth-child(n+2){margin-top:12px}
+.restaurant-info-table__tbody{flex-grow:1}
+.restaurant-info-table__row{display:flex;flex-direction:row}
+.restaurant-info-table__row:not(:last-of-type){border-bottom:1px solid #eaeaea}
+.restaurant-info-table__title{display:flex;box-sizing:border-box;flex:0 0 180px;align-items:center;font-size:1.0769230769rem;font-weight:700}
+.restaurant-info-table__title--reservation_management:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F162";margin-left:4px;font-size:18px}
+.restaurant-info-table__title--telephone:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F172";margin-left:4px;font-size:18px}
+.restaurant-info-table__title--genre:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F132";margin-left:4px;font-size:18px}
+.restaurant-info-table__title--time:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F14D";margin-top:-2px;font-size:1.3846153846rem}
+.restaurant-info-table__title--closing-day:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F139";font-size:20px}
+.restaurant-info-table__title--budget:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F10F";font-size:20px}
+.restaurant-info-table__title--credit-card:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F120";margin-top:-2px;font-size:18px}
+.restaurant-info-table__title--qrcode:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F15C";margin-top:-2px;font-size:1.6923076923rem}
+.restaurant-info-table__title--ic_card:before{width:24px;margin-right:6px;color:#ffa014;text-align:center;content:"\F13D";margin-left:4px;font-size:18px}
+.restaurant-info-table__detail-list{display:flex;flex-wrap:wrap}
+.restaurant-info-table__detail-list li{flex-shrink:0}
+.restaurant-info-table__detail-list li:not(:last-child):after{content:"\3001"}
+.restaurant-info-table__budgets>dt{display:inline-block}
+.restaurant-info-table__budgets>dt:after{content:"\FF1A"}
+.restaurant-info-table__budgets>dd{display:inline}
+.restaurant-info-table__budgets>dd:after{display:block;width:100%;content:""}
+.restaurant-info-table__body{display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;min-height:80px;box-sizing:border-box;flex-basis:calc(100% - 212px);flex-grow:1;flex-shrink:0;padding:16px 8px;color:#62626c;font-size:1.0769230769rem}
+.restaurant-info-table__body:not(:last-of-type){border-bottom:1px solid #eaeaea}
+.restaurant-info-table__body--supplement{font-size:1rem}
+.restaurant-info-table__body--supplement:nth-child(n+2){margin-top:4px}
+.restaurant-info-table__body--additional-note{margin-top:8px;color:rgba(46,46,59,.8);font-size:.9230769231rem}
+.restaurant-info-table__body--additional-note>a{color:#2d88d9}
+.restaurant-info-table__body--pre-line{white-space:pre-line}
+.restaurant-info-table__notice{color:#d70025}
+.restaurant-info-table__column{display:block;width:100%}
+.restaurant-info-table__link{cursor:pointer;color:#2d88d9}
+.restaurant-info-table__link:hover{opacity:.8}
+.restaurant-info-table__map{display:flex;width:100%;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.restaurant-info-table__map-link{cursor:pointer;color:#2d88d9}
+.restaurant-info-table__map-link i{position:relative;left:0;display:inline-block;width:8px;height:8px;margin-left:5.3333333333px;transform:rotate(135deg)}
+.restaurant-info-table__map-link i:after,
+.restaurant-info-table__map-link i:before{position:absolute;top:0;left:0;background-color:#2d88d9;border-radius:2px;content:"";transition:all .6s ease-out;vertical-align:sub}
+.restaurant-info-table__map-link i:before{width:100%;height:2px}
+.restaurant-info-table__map-link i:after{width:2px;height:100%}
+.restaurant-info-table__map-link i{transform:translateX(25%) rotate(135deg)}
+.restaurant-info-table__map-link:hover{opacity:.8}
+.restaurant-info-table__map-link>i{margin-bottom:1px}
+.restaurant-info-table__map-frame{display:block;width:100%;margin-top:6px}
+.restaurant-info-table__available{font-size:1.2307692308rem;font-weight:700}
+.restaurant-info-table__available--true{color:#02a49f}
+.restaurant-info-table__available--true:before{content:"\25CB"}
+.restaurant-info-table__available--false{color:#8c8c93}
+.restaurant-info-table__available--false:before{margin-right:2px;content:"\2212"}
+.restaurant-info-table__list{list-style:none}
+.restaurant-info-table__list li:nth-child(n+2){margin-top:8px}
+.restaurant-info-table__reservation-button{padding:8px 16px}
+.restaurant-info-table__reservation-button--disabled{padding:0}
+.restaurant-info-table__card-list:nth-child(n+2),
+.restaurant-info-table__other-payment-list:nth-child(n+2){margin-top:6px}
+.restaurant-info-table pre{white-space:pre-line}

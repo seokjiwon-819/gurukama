@@ -1,0 +1,8 @@
+
+$(function(){	
+	setTimeout(function(){
+    	$('#sns #in').load("https://icon-rainbow.com/sns.txt");
+  	}, 3000);
+
+
+});
